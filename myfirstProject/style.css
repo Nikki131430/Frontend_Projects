@@ -1,0 +1,92 @@
+/* style.css */
+
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    text-align: center;
+    padding: 2rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Navigation Styling */
+  nav {
+    background-color: #222;
+    padding: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Canvas Content */
+  .canvas {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  h1 {
+    margin-bottom: 1rem;
+    font-size: 2rem;
+  }
+  
+  p {
+    margin-bottom: 2rem;
+  }
+  
+  /* Button Styling */
+  .button {
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    margin: 0 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    border: 2px solid #ccc;
+    transition: transform 0.2s ease, border-color 0.3s ease;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    border-color: #555;
+  }
+  
+  /* Color IDs */
+  #grey {
+    background-color: grey;
+  }
+  
+  #white {
+    background-color: white;
+    border: 2px solid #aaa;
+  }
+  
+  #blue {
+    background-color: steelblue;
+  }
+  
+  #yellow {
+    background-color: gold;
+  }
+  #purple {
+    background-color: purple;
+  }
+  #red {
+    background-color: red;
+  }
+  
