@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Bus Booking Portal</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>🚌 Bus Booking Portal</h1>
+
+    <div class="clock" id="clock"></div>
+
+    <!-- Search -->
+    <div class="search-section">
+      <input type="text" id="searchInput" placeholder="Search destination..." />
+      <input type="date" id="dateInput" />
+      <button onclick="searchBuses()">Search</button>
+    </div>
+
+    <!-- Booking History -->
+    <div class="history-section">
+      <h2>📜 Booking History</h2>
+      <ul id="historyList"></ul>
+    </div>
+
+    <!-- Available Buses -->
+    <div class="bus-section">
+      <h2>🚌 Available Buses</h2>
+      <div id="busList" class="bus-list"></div>
+    </div>
+  </div>
+
+  <!-- Confirmation Modal -->
+  <div id="modal" class="modal hidden">
+    <div class="modal-content">
+      <p id="modalMessage"></p>
+      <button onclick="closeModal()">Close</button>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

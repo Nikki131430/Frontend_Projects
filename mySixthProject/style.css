@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #f3f6fb;
+    color: #333;
+    padding: 20px;
+  }
+  
+  .container {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  h1, h2 {
+    text-align: center;
+  }
+  
+  .clock {
+    text-align: center;
+    font-size: 18px;
+    margin-bottom: 15px;
+    color: #666;
+  }
+  
+  .search-section {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .search-section input, .search-section button {
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  .history-section, .bus-section {
+    background: #fff;
+    padding: 15px;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .bus-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 10px;
+  }
+  
+  .bus-card {
+    background-color: #e3f2fd;
+    padding: 15px;
+    border-radius: 8px;
+    width: 260px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  }
+  
+  .bus-card button {
+    margin-top: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  
+  .bus-card button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+  }
+  
+  /* Modal */
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 25px;
+    border-radius: 8px;
+    text-align: center;
+  }
+  
